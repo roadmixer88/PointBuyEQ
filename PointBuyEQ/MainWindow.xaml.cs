@@ -48,7 +48,7 @@ namespace PointBuyEQ
             //going down
             if (newValue < oldValue)
             {
-                if (newValue <= 16)
+                if (oldValue <= 16)
                 {
                     if (!TryChangePointsValue(1, true))
                     {
