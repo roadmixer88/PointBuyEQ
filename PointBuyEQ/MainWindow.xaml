@@ -3,13 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         Title="EQ RPG Stats" Height="287" Width="413">
     <Grid>
-        <xctk:IntegerUpDown x:Name="StrSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,54,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
-        <xctk:IntegerUpDown x:Name="DexSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,79,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
-        <xctk:IntegerUpDown x:Name="ConSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,104,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="StrSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,54,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="DexSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,79,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="ConSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,104,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
         <TextBox x:Name="PointsBox"  HorizontalAlignment="Left" Height="23" Margin="107,24,0,0" TextWrapping="Wrap" Text="27" VerticalAlignment="Top" Width="41" IsReadOnly="True"/>
-        <xctk:IntegerUpDown x:Name="IntSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,129,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
-        <xctk:IntegerUpDown x:Name="WisSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,154,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
-        <xctk:IntegerUpDown x:Name="ChaSpinner" Value="8" Minimum="6" Maximum="18" HorizontalAlignment="Left" Margin="107,179,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="IntSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,129,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="WisSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,154,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
+        <xctk:IntegerUpDown x:Name="ChaSpinner" Value="8" Minimum="8" Maximum="18" HorizontalAlignment="Left" Margin="107,179,0,0" VerticalAlignment="Top" ValueChanged="Spinner_ValueChanged"/>
         <TextBox x:Name="StrRacial"  HorizontalAlignment="Left" Height="23" Margin="180,54,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="41" IsReadOnly="True"/>
         <TextBox x:Name="DexRacial"  HorizontalAlignment="Left" Height="23" Margin="180,79,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="41" IsReadOnly="True"/>
         <TextBox x:Name="ConRacial"  HorizontalAlignment="Left" Height="23" Margin="180,102,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="41" IsReadOnly="True"/>
